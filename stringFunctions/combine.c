@@ -4,12 +4,12 @@
 int main () {
    char stringOne[50], stringTwo[50];
 
-   strcpy(stringOne,  "This is source");
-   strcpy(stringTwo, "This is destination");
+   strcpy(stringOne,  "This is source ");
+   strcpy(stringTwo, "This is destination ");
 
-   strcat(stringOne, stringTwo);
+    strcat(stringOne, stringTwo);
 
-   printf("Final string => %s\n", stringTwo);
+   printf("Final string => %s\n", stringOne);
    
    return(0);
 }
